@@ -15,6 +15,9 @@
 		603AB0291D518EFA00821579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603AB0271D518EFA00821579 /* LaunchScreen.storyboard */; };
 		603AB0341D518EFA00821579 /* StoryboardConstraintsPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603AB0331D518EFA00821579 /* StoryboardConstraintsPracticeTests.m */; };
 		603AB03F1D518EFA00821579 /* StoryboardConstraintsPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603AB03E1D518EFA00821579 /* StoryboardConstraintsPracticeUITests.m */; };
+		606228E11D51E7EF003D18C9 /* AppleUSA1.png in Resources */ = {isa = PBXBuildFile; fileRef = 606228E01D51E7EF003D18C9 /* AppleUSA1.png */; };
+		606228E31D51E7F7003D18C9 /* AppleUSA2.png in Resources */ = {isa = PBXBuildFile; fileRef = 606228E21D51E7F7003D18C9 /* AppleUSA2.png */; };
+		606228E51D51E88A003D18C9 /* AppleUSA3.png in Resources */ = {isa = PBXBuildFile; fileRef = 606228E41D51E88A003D18C9 /* AppleUSA3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		603AB03A1D518EFA00821579 /* StoryboardConstraintsPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardConstraintsPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		603AB03E1D518EFA00821579 /* StoryboardConstraintsPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardConstraintsPracticeUITests.m; sourceTree = "<group>"; };
 		603AB0401D518EFA00821579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606228E01D51E7EF003D18C9 /* AppleUSA1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleUSA1.png; path = ../../../../../Downloads/AppleUSA1.png; sourceTree = "<group>"; };
+		606228E21D51E7F7003D18C9 /* AppleUSA2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleUSA2.png; path = ../../../../../Downloads/AppleUSA2.png; sourceTree = "<group>"; };
+		606228E41D51E88A003D18C9 /* AppleUSA3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleUSA3.png; path = ../../../../../Downloads/AppleUSA3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 		603AB0181D518EFA00821579 /* StoryboardConstraintsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				606228E41D51E88A003D18C9 /* AppleUSA3.png */,
+				606228E21D51E7F7003D18C9 /* AppleUSA2.png */,
+				606228E01D51E7EF003D18C9 /* AppleUSA1.png */,
 				603AB01C1D518EFA00821579 /* AppDelegate.h */,
 				603AB01D1D518EFA00821579 /* AppDelegate.m */,
 				603AB01F1D518EFA00821579 /* ViewController.h */,
@@ -243,8 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606228E11D51E7EF003D18C9 /* AppleUSA1.png in Resources */,
 				603AB0291D518EFA00821579 /* LaunchScreen.storyboard in Resources */,
+				606228E51D51E88A003D18C9 /* AppleUSA3.png in Resources */,
 				603AB0261D518EFA00821579 /* Assets.xcassets in Resources */,
+				606228E31D51E7F7003D18C9 /* AppleUSA2.png in Resources */,
 				603AB0241D518EFA00821579 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +512,7 @@
 				603AB0451D518EFA00821579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		603AB0461D518EFA00821579 /* Build configuration list for PBXNativeTarget "StoryboardConstraintsPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +521,7 @@
 				603AB0481D518EFA00821579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		603AB0491D518EFA00821579 /* Build configuration list for PBXNativeTarget "StoryboardConstraintsPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +530,7 @@
 				603AB04B1D518EFA00821579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

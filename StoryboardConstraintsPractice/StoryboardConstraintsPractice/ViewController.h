@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    IBOutlet UIImageView *pic1;
+    IBOutlet UIImageView *pic2;
+}
 
 @end
 
